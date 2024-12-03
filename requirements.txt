@@ -5,3 +5,7 @@ pymongo==4.3.3
 boto3==1.26.13
 pillow==9.3.0
 pytz==2023.3
+streamlit==1.23.0  # Make sure to specify a compatible version of Streamlit
+zlib1g-dev
+libjpeg-dev
+libfreetype6-dev
