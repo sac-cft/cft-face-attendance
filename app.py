@@ -115,7 +115,6 @@ def get_face_name():
         return jsonify({"error": str(e)}), 500
 
 
-# Remove app.run() and prepare for deployment with Gunicorn
+
 if __name__ == "__main__":
-    # Flask app will be served using Gunicorn instead of app.run() in production
-    pass
+    app.run(debug=True)

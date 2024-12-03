@@ -1,11 +1,5 @@
-gunicorn==20.1.0
 Flask==2.2.3
-Werkzeug==2.2.2  # or a later version like 2.3.x
-pymongo==4.3.3
+Pillow==9.3.0
 boto3==1.26.13
-pillow==9.3.0
+pymongo==4.3.3
 pytz==2023.3
-streamlit==1.23.0  # Make sure to specify a compatible version of Streamlit
-zlib1g-dev
-libjpeg-dev
-libfreetype6-dev
